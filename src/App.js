@@ -1,8 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "@fortawesome/free-solid-svg-icons";
-import "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/react-fontawesome";
+import "react-icons/bs";
 import NavBarNetflix from "./Components/NavBarNetflix";
 import MainContent from "./Components/MainContent";
 import TrendingNow from "./Components/TrendingNow";

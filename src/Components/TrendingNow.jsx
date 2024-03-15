@@ -1,8 +1,6 @@
 import { Component } from "react";
 import "../NavBarNetflix.css";
-// import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/fontawesome-svg-core";
-import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-solid-svg-icons";
-// import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/react-fontawesome";
+import { BsFacebook, BsInstagram, BsTwitterX, BsYoutube } from "react-icons/bs";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import HarryPotter from "../data/HarryPotter.json";
@@ -51,13 +49,13 @@ class TrendingNow extends Component {
               <div className="row">
                 <div className="col mb-2">
                   {/* <i className="bi bi-facebook footer-icon me-2"></i> */}
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <BsFacebook className="icons" />
                   {/* <i className="bi bi-instagram footer-icon me-2"></i> */}
-                  <FontAwesomeIcon icon={faInstagram} />
+                  <BsInstagram className="icons" />
                   {/* <i className="bi bi-twitter-x footer-icon me-2"></i> */}
-                  <FontAwesomeIcon icon={faTwitter} />
+                  <BsTwitterX className="icons" />
                   {/* <i className="bi bi-youtube footer-icon"></i> */}
-                  <FontAwesomeIcon icon={faYoutube} />
+                  <BsYoutube className="icons" />
                 </div>
               </div>
               <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg 4">
