@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/free-solid-svg-icons";
+import "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/react-fontawesome";
+import NavBarNetflix from "./Components/NavBarNetflix";
+import MainContent from "./Components/MainContent";
+import TrendingNow from "./Components/TrendingNow";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBarNetflix />
+      <MainContent />
+      <TrendingNow />
     </div>
   );
 }
