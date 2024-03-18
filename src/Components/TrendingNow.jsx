@@ -10,9 +10,9 @@ import StarWars from "../data/StarWars.json";
 class TrendingNow extends Component {
   render() {
     return (
-      <div className="container-fluid px-4 trending_div">
+      <div className="container-fluid px-4 card_div">
         <h4 className="tvshow_title">Trending Now</h4>
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 trending_div">
           {HarryPotter.slice(0, 6).map((movies) => {
             return (
               <div className="col mb-2 text-center px-1 movie_card">
@@ -22,7 +22,7 @@ class TrendingNow extends Component {
           })}
         </div>
         <h4 className="tvshow_title">Watch it Again</h4>
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 trending_div">
           {Avengers.slice(0, 6).map((movies) => {
             return (
               <div className="col mb-2 text-center px-1">
@@ -33,7 +33,7 @@ class TrendingNow extends Component {
         </div>
 
         <h4 className="tvshow_title">New Releases</h4>
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 trending_div">
           {StarWars.slice(0, 6).map((movies) => {
             return (
               <div className="col mb-2 text-center px-1">
