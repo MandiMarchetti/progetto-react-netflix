@@ -17,17 +17,12 @@ function App() {
         <MainContent />
 
         <Routes>
-          <Route>
-            <TrendingNowFunction />
-          </Route>
-          <Route>
-            <NewReleasesFunction />
-          </Route>
-          <Route>
-            <WatchItAgainFunction />
-          </Route>
-        </Routes>
+          <Route path="/" element={<TrendingNowFunction />} />
 
+          <Route path="" element={<NewReleasesFunction />} />
+
+          <Route path="" element={<WatchItAgainFunction />} />
+        </Routes>
         <Footer />
       </div>
     </BrowserRouter>
