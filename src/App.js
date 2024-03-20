@@ -4,6 +4,7 @@ import "react-icons/bs";
 import NavBarNetflix from "./Components/NavBarNetflix";
 import MainContent from "./Components/MainContent";
 import TrendingNow from "./Components/TrendingNow";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavBarNetflix />
       <MainContent />
       <TrendingNow />
+      <Footer />
     </div>
   );
 }

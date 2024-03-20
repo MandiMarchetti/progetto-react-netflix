@@ -1,3 +1,6 @@
+* {
+  background-color: #221f1f;
+}
 .navbar-nav {
   font-size: 90%;
 }
@@ -19,6 +22,25 @@
 
 .icons {
   color: #838383;
+}
+
+.col img {
+  transition: transform 0.2s;
+}
+
+.movie_card:hover {
+  transform: scale(1.1);
+}
+
+.trending_div {
+}
+.movie_card {
+  max-height: 190px;
+  overflow-y: hidden;
+  object-fit: cover;
+}
+.unique_card_div {
+  margin-bottom: 30px;
 }
 
 .footer-links {
@@ -43,18 +65,4 @@
 .copyright {
   color: #838383;
   font-size: 0.6em;
-}
-
-.col img {
-  transition: transform 0.2s;
-}
-
-.col img:hover {
-  transform: scale(1.1);
-}
-
-.trending_div {
-}
-.img-fluid {
-  height: 80px;
 }
