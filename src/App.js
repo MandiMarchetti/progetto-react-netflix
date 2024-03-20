@@ -17,11 +17,19 @@ function App() {
         <MainContent />
 
         <Routes>
-          <Route path="/" element={<TrendingNowFunction />} />
+          <Route
+            path="/"
+            element={
+              <div>
+                <TrendingNowFunction />
+                <NewReleasesFunction />
+                <WatchItAgainFunction />
+              </div>
+            }
+          />
 
-          <Route path="" element={<NewReleasesFunction />} />
+            <Route path="/details" element={} />
 
-          <Route path="" element={<WatchItAgainFunction />} />
         </Routes>
         <Footer />
       </div>
