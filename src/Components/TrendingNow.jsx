@@ -17,7 +17,7 @@ class TrendingNow extends Component {
             {HarryPotter.slice(0, 6).map((movies) => {
               return (
                 <div className="col mb-2 text-center movie_card">
-                  <img className="img-fluid" src={movies.Poster} alt="movie picture" />
+                  <img className="img-fluid" src={movies.Poster} alt="movie_picture" />
                 </div>
               );
             })}
@@ -31,7 +31,7 @@ class TrendingNow extends Component {
             {Avengers.slice(0, 6).map((movies) => {
               return (
                 <div className="col mb-2 text-center px-1 movie_card">
-                  <img className="img-fluid" src={movies.Poster} alt="movie picture" />
+                  <img className="img-fluid" src={movies.Poster} alt="movie_picture" />
                 </div>
               );
             })}
@@ -45,7 +45,7 @@ class TrendingNow extends Component {
             {StarWars.slice(0, 6).map((movies) => {
               return (
                 <div className="col mb-2 text-center px-1 movie_card">
-                  <img className="img-fluid" src={movies.Poster} alt="movie picture" />
+                  <img className="img-fluid" src={movies.Poster} alt="movie_picture" />
                 </div>
               );
             })}
